@@ -1,6 +1,6 @@
 # Homenagem a Nikola Tesla
 
-Uma página de homenagem a Nikola Tesla com estilo profissional.
+Uma página em homenagem a Nikola Tesla com estilo profissional.
 
 ![Nikola Tesla](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/N.Tesla.JPG/220px-N.Tesla.JPG)
 
