@@ -1,0 +1,84 @@
+/*
+   Project Name: Homenagem a Nikola Tesla
+   Author: [Seu Nome]
+   Description: Uma página de homenagem a Nikola Tesla com estilo profissional.
+*/
+
+body {
+    background-color: #F5F5F5;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #333;
+    text-shadow: 2px 2px 2px #999;
+}
+
+h2 {
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #777;
+}
+
+.link {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    margin-top: 30px;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
+.fade-in {
+    animation: fade-in 1s ease-in;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
